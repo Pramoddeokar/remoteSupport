@@ -71,12 +71,8 @@
     </AdditionalFiles>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="wwwroot\Artifacts\AppIcon.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\Artifacts\Urgent.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="wwwroot\images\AppIcon.png" />
+    <Content Include="wwwroot\images\Urgent.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

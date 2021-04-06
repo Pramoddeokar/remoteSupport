@@ -54,7 +54,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Teams.Apps.RemoteSupport.Common\Microsoft.Teams.Apps.RemoteSupport.Common.csproj" />
+    <ProjectReference Include="..\RemoteSupport.Common\Microsoft.Teams.Apps.RemoteSupport.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>

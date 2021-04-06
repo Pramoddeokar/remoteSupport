@@ -89,7 +89,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Cards
                             {
                                 new AdaptiveImage
                                 {
-                                    Url = new Uri(string.Format(CultureInfo.InvariantCulture, "{0}/images/Urgent.png", applicationBasePath?.Trim('/'))),
+                                    Url = new Uri(string.Format(CultureInfo.InvariantCulture, "{0}/Artifacts/Urgent.png", applicationBasePath?.Trim('/'))),
                                     Size = AdaptiveImageSize.Large,
                                     AltText = localizer.GetString("UrgentText"),
                                     IsVisible = ticketDetail.RequestType == Constants.UrgentString,

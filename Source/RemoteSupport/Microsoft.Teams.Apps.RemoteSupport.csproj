@@ -35,7 +35,7 @@
     <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Teams.Apps.RemoteSupport.Common\Microsoft.Teams.Apps.RemoteSupport.Common.csproj" />
+    <ProjectReference Include="..\RemoteSupport.Common\Microsoft.Teams.Apps.RemoteSupport.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -71,8 +71,12 @@
     </AdditionalFiles>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="wwwroot\images\AppIcon.png" />
-    <Content Include="wwwroot\images\Urgent.png" />
+    <Content Include="wwwroot\Artifacts\AppIcon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Artifacts\Urgent.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
